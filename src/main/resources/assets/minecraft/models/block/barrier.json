@@ -1,6 +1,12 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cube",
   "textures": {
-    "all": "minecraft:item/barrier"
+    "up": "visiblebarrierblocks:block/barrier",
+    "down": "visiblebarrierblocks:block/barrier",
+    "north": "visiblebarrierblocks:block/barrier",
+    "south": "visiblebarrierblocks:block/barrier",
+    "west": "visiblebarrierblocks:block/barrier",
+    "east": "visiblebarrierblocks:block/barrier",
+    "particle": "minecraft:item/barrier"
   }
 }
