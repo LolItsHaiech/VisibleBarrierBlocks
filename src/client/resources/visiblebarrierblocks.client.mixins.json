@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.github.lolitshaiech.visiblebarrierblocks.mixin.client",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "BarrierBlockMixin",
+    "GameOptionsMixin",
+    "VideoOptionsScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+  ]
+}

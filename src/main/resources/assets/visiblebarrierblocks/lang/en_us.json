@@ -1,0 +1,7 @@
+{
+  "options.visiblebarrierblocks.toggle": "Visible Barrier Blocks",
+  "key.category.visiblebarrierblocks": "Visible Barrier Blocks",
+  "key.visiblebarrierblocks.toggle": "Toggle Barrier Visibility",
+  "key.visiblebarrierblocks.toggle.on": "Barrier Blocks are now visible.",
+  "key.visiblebarrierblocks.toggle.off": "Barrier Blocks are now not visible."
+}
