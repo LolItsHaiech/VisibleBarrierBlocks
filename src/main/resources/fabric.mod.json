@@ -7,7 +7,6 @@
   "authors": [],
   "contact": {},
   "license": "All-Rights-Reserved",
-  "icon": "assets/visiblebarrierblocks/icon.png",
   "accessWidener": "visiblebarrierblocks.accesswidener",
   "environment": "client",
   "entrypoints": {
