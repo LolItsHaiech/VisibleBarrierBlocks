@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "visiblebarrierblocks",
+  "version": "1.0",
+  "name": "VisibleBarrierBlocks",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "accessWidener": "visiblebarrierblocks.accesswidener",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.github.lolitshaiech.visiblebarrierblocks.client.VisiblebarrierblocksClient"
+    ],
+    "main": [
+      "com.github.lolitshaiech.visiblebarrierblocks.Visiblebarrierblocks"
+    ]
+  },
+  "mixins": [
+    "visiblebarrierblocks.mixins.json",
+    {
+      "config": "visiblebarrierblocks.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.2",
+    "fabric": "*",
+    "minecraft": "1.21"
+  }
+}
