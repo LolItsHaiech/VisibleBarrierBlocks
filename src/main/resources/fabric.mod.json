@@ -4,9 +4,11 @@
   "version": "${version}",
   "name": "VisibleBarrierBlocks",
   "description": "",
-  "authors": [],
+  "authors": [
+    "realHaiech"
+  ],
   "contact": {},
-  "license": "All-Rights-Reserved",
+  "license": "MIT",
   "icon": "assets/visiblebarrierblocks/icon.png",
   "accessWidener": "visiblebarrierblocks.accesswidener",
   "environment": "client",

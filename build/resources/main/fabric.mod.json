@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "visiblebarrierblocks",
-  "version": "1.0",
+  "version": "1.0+1.21",
   "name": "VisibleBarrierBlocks",
   "description": "",
   "authors": [],
