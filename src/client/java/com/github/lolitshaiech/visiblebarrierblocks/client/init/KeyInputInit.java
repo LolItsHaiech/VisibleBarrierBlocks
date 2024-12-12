@@ -23,7 +23,7 @@ public class KeyInputInit {
             if (barrierVisibilityToggle.isPressed() && !pressed) {
                 pressed = true;
                 SettingsKeyInit.toggle.setValue(!SettingsKeyInit.toggle.getValue());
-                client.player.sendMessage(Text.translatable("key.visiblebarrierblocks.toggle." + (SettingsKeyInit.toggle.getValue()?"on":"off")));
+                client.player.sendMessage(Text.translatable("key.visiblebarrierblocks.toggle." + (SettingsKeyInit.toggle.getValue()?"on":"off")), true);
             } else if(!barrierVisibilityToggle.isPressed()){
                 pressed = false;
             }

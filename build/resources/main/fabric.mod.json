@@ -1,12 +1,14 @@
 {
   "schemaVersion": 1,
   "id": "visiblebarrierblocks",
-  "version": "1.0",
+  "version": "1.0+1.21.3",
   "name": "VisibleBarrierBlocks",
   "description": "",
-  "authors": [],
+  "authors": [
+    "realHaiech"
+  ],
   "contact": {},
-  "license": "All-Rights-Reserved",
+  "license": "MIT",
   "icon": "assets/visiblebarrierblocks/icon.png",
   "accessWidener": "visiblebarrierblocks.accesswidener",
   "environment": "client",
@@ -26,8 +28,8 @@
     }
   ],
   "depends": {
-    "fabricloader": ">=0.16.2",
+    "fabricloader": ">=0.16.9",
     "fabric": "*",
-    "minecraft": "1.21"
+    "minecraft": "1.21.4"
   }
 }
